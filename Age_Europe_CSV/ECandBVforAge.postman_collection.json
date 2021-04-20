@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "AgeEurope+JSON",
+			"name": "AgeUSA+JSON",
 			"event": [
 				{
 					"listen": "test",
@@ -17,13 +17,13 @@
 							"    var jsonData = pm.response.json();\r",
 							"    pm.response.to.have.status(200);\r",
 							"    pm.expect(_.inRange(parseInt(pm.iterationData.get(\"age\")), 0, 100)).to.be.true;\r",
-							"    if (0 <= parseInt(pm.iterationData.get(\"age\")) && (parseInt(pm.iterationData.get(\"age\"))<= 17))\r",
+							"    if (0 <= parseInt(pm.iterationData.get(\"age\")) && (parseInt(pm.iterationData.get(\"age\"))<= 20))\r",
 							"    {pm.expect(jsonData.age)== pm.iterationData.get(\"age\") &&\r",
 							"    pm.expect(jsonData.age_type).to.eql(\"underage\");}\r",
-							"    else if (18 <= parseInt(pm.iterationData.get(\"age\")) && parseInt(pm.iterationData.get(\"age\"))<= 50)\r",
+							"    else if (21 <= parseInt(pm.iterationData.get(\"age\")) && parseInt(pm.iterationData.get(\"age\"))< 50)\r",
 							"    {pm.expect(jsonData.age)==(pm.iterationData.get(\"age\")) &&\r",
 							"    pm.expect(jsonData.age_type).to.eql(\"adult\");}\r",
-							"    else if (51 <= parseInt(pm.iterationData.get(\"age\"))&& parseInt(pm.iterationData.get(\"age\"))<= 100)\r",
+							"    else if (50 <= parseInt(pm.iterationData.get(\"age\"))&& parseInt(pm.iterationData.get(\"age\"))<= 100)\r",
 							"    {pm.expect(jsonData.age)==(pm.iterationData.get(\"age\"))&&\r",
 							"    pm.expect(jsonData.age_type).to.eql(\"antiquity\");}\r",
 							"    });\r",
@@ -48,13 +48,68 @@
 					]
 				},
 				"url": {
-					"raw": "{{url}}:{{port}}/{{endpoint}}",
+					"raw": "{{url}}:{{port}}/{{endpoint2}}",
 					"host": [
 						"{{url}}"
 					],
 					"port": "{{port}}",
 					"path": [
-						"{{endpoint}}"
+						"{{endpoint2}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AgeEurope+JSON",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test(\"Тест для значения = \"+ pm.iterationData.get(\"age\"), function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.response.to.have.status(200);\r",
+							"    pm.expect(_.inRange(parseInt(pm.iterationData.get(\"age\")), 0, 100)).to.be.true;\r",
+							"    if (0 <= parseInt(pm.iterationData.get(\"age\")) && (parseInt(pm.iterationData.get(\"age\"))<= 17))\r",
+							"    {pm.expect(jsonData.age)== pm.iterationData.get(\"age\") &&\r",
+							"    pm.expect(jsonData.age_type).to.eql(\"underage\");}\r",
+							"    else if (18 <= parseInt(pm.iterationData.get(\"age\")) && parseInt(pm.iterationData.get(\"age\"))<50)\r",
+							"    {pm.expect(jsonData.age)==(pm.iterationData.get(\"age\")) &&\r",
+							"    pm.expect(jsonData.age_type).to.eql(\"adult\");}\r",
+							"    else if (50 <= parseInt(pm.iterationData.get(\"age\"))&& parseInt(pm.iterationData.get(\"age\"))<= 100)\r",
+							"    {pm.expect(jsonData.age)==(pm.iterationData.get(\"age\"))&&\r",
+							"    pm.expect(jsonData.age_type).to.eql(\"antiquity\");}\r",
+							"    });\r",
+							"    \r",
+							"    "
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "age",
+							"value": "{{age}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}:{{port}}/{{endpoint1}}",
+					"host": [
+						"{{url}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"{{endpoint1}}"
 					]
 				}
 			},
@@ -91,8 +146,12 @@
 			"value": "5002"
 		},
 		{
-			"key": "endpoint",
+			"key": "endpoint1",
 			"value": "age_europe"
+		},
+		{
+			"key": "endpoint2",
+			"value": "age_usa"
 		}
 	]
 }
