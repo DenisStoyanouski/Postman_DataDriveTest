@@ -1,7 +1,7 @@
 {
-	"id": "5a872e5d-0152-4fb2-b4e7-861ee1d5bcfe",
+	"id": "c87fba60-d98a-41b9-9242-edc3af4c8fef",
 	"name": "ECandBVforAge",
-	"timestamp": "2021-04-20T16:32:17.316Z",
+	"timestamp": "2021-04-20T17:01:48.764Z",
 	"collection_id": "3bc8e0ff-8906-4db6-b1bf-cb76fc53ebc9",
 	"folder_id": 0,
 	"environment_id": "a4c0c2fe-679f-441e-8199-3ac71c0441b4",
@@ -11,7 +11,7 @@
 		{
 			"id": "dd8f02cc-5292-4eb8-acc5-7beada01d81d",
 			"name": "AgeEurope+JSON",
-			"time": 75,
+			"time": 63,
 			"responseCode": {
 				"code": 500,
 				"name": "INTERNAL SERVER ERROR"
@@ -82,21 +82,21 @@
 				}
 			},
 			"times": [
-				64,
-				89,
-				127,
-				66,
-				75,
-				83,
-				75,
-				67,
+				92,
+				73,
 				76,
-				63,
-				76,
-				67,
-				75,
 				74,
-				75
+				74,
+				68,
+				82,
+				64,
+				68,
+				66,
+				76,
+				81,
+				75,
+				70,
+				63
 			],
 			"allTests": [
 				{
@@ -148,7 +148,7 @@
 		}
 	],
 	"count": 15,
-	"totalTime": 1152,
+	"totalTime": 1102,
 	"collection": {
 		"requests": [
 			{

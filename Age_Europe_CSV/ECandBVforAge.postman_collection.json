@@ -48,16 +48,13 @@
 					]
 				},
 				"url": {
-					"raw": "116.203.27.46:5002/age_europe",
+					"raw": "{{url}}:{{port}}/{{endpoint}}",
 					"host": [
-						"116",
-						"203",
-						"27",
-						"46"
+						"{{url}}"
 					],
-					"port": "5002",
+					"port": "{{port}}",
 					"path": [
-						"age_europe"
+						"{{endpoint}}"
 					]
 				}
 			},
@@ -82,6 +79,20 @@
 					""
 				]
 			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "116.203.27.46"
+		},
+		{
+			"key": "port",
+			"value": "5002"
+		},
+		{
+			"key": "endpoint",
+			"value": "age_europe"
 		}
 	]
 }
