@@ -80,6 +80,34 @@ Phase 7 : Maintenance
 Once the system is deployed and customers start using the developed system, following 3 activities occur
 >Bug fixing - bugs are reported because of somr scenarios which are nit tested at 
 >Upgrade - upgrading the application to th newer versions of the software
->Enhancement - aadding some new features inti the existing software 
+>Enhancement - aadding some new features inti the existing software.
+
+---------------Popular SDLC models------------------
+> Waterfall model
+The waterfall is a widely accepted SDLC model. In this approach, the whole process of the software development is divided into various phases of SDLC.
+In this SDLC model, the outcome of one phase acts as the input for the next phase.
+This SDLC model is documentation-intensive, with earlier phases documenting what need be performed in the subsequent phases.
+
+>Incremental Model
+The incremental model is not a separate model. It is essentially a series of watefall cucles. The requirements are divided into groups at the start
+of the project.For each group, the SDLC model is followed to develop software. The SDLC process is repeated, with each release adding more functionality
+until all requirements are met. In this method, every cycle act as the maintenance phase for the previous software realese. Modification to the incremental
+model allows development cycles to overlap. After that subsequent cycle may begin before the previous cycle is complete.
+
+>V-Model 
+in this type of SDLC model testing and the development, the phase is planned in parallel. So, there are verification phases of sdlc on the side and 
+the validation phase on the other side. V-Modeljoins by Coding phase.
+
+>Agile Model
+Agile methodology is a practice which promotes continue interaction of development and testing during the SDLC process of any project. In the Agile method,
+the entire project is divided into small incremental builds. All of these builds are provided in oterations, and each iteration lasts from on three weeks.
+
+>Spiral Model
+the spiral model is a risk-drive process model. This SDLC model helps the team to adopt elements of one or more process models like a waterfall,
+incremental,ect.
+This model adopts the best features of the prototyping model and the waterfall model. The spiral methodology is a combination of rapid prototyping and 
+concurrency in design and development activities.
+
+
 
 
