@@ -1,0 +1,24 @@
+SDLC is a systematic process for building software that ensure the quality and cerrectness of the software built.
+SDLC process aims to produce high-quality software that meets customer expectations.
+The system development should be complete in the pre-defined time frame and cost. SDLC consists of a detailed plan which explains how to plan,
+build and maintain specific software. Every phase of the SDLC life Cycle has its own process and deliverable that feed into the next phase. 
+SDLC stands Software Development Life Cycle and is also referred to as the Application Development life-cycle.
+
+-----------------------WHY IS SDLC-------------------------------
+>it offers a basis for project planning, scheduling and estimating;
+>Provides a framework for a standard ste of activities and deliverables;
+>It is a mechanism for project tracking and control;
+>Increases visibility of project plannig to all involved stakeholders of the development process;
+>Incresed and enhance development speed;
+>Improved client relations;
+>Helps you to decrease project risk and project management plan overhead.
+
+----------------------SDLC Phases----------------------------------
+the entire SDLC process divided into the folowing stages:
+>Phase 1 : Requirements collection and analisys;
+>Phase 2 : Feasibility study;
+>Phase 3 : Design;
+>Phase 4 : Coding;
+>Phase 5 : Testing;
+>Phase 6 : Installation/Deployment;
+>Phase 7 : Maintenance;
