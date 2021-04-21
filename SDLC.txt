@@ -22,3 +22,64 @@ the entire SDLC process divided into the folowing stages:
 >Phase 5 : Testing;
 >Phase 6 : Installation/Deployment;
 >Phase 7 : Maintenance;
+
+Phase 1 : Requirement collection and analysis;
+The requirement is the first stage in the SDLC process. It is conducted by the senior team members with inputs from all the stakeholders and
+domain experts in the industry. Planning for the quality assurance requirements and recognization of the risks involved is aslo done at this stage.
+This stage gives a clearer picture of the scope of the entire project and the anticipated issues, opportunities, and directives which triggered the project.
+Requirements Gathering stage need teams to get detailed and precise requirements. This helps compnies to finilize the necessary timeline to
+finish the work ooh the system.
+
+Phase 2 : Feasibility study;
+
+Once the requirements analysis phase is completed the next sdlc step and document software needs. This process conducted with the help of 'Software 
+Requirement Specification' document also know as 'SRS' document. It includes everything which be designed and develop during the project life cycle.
+There are mainly five types of feasibility checks:
+-Economic: Can we complete the project within the budget or not?
+-Legal: Can we handle this project as cyber law and other regulatory framework/compliances.
+-Operation feasibility: Can we create operations which is expected by the client?
+-Technical: Need to check whether the current computer system can support the software.
+-Schedule: Decide that the project can be completed within the given schedule or not.
+
+Phase 3 : Design
+In this third pahse, the system and software design documents are prepare as per the requirement specification document.
+This helps define overall system atchitecture.
+This design phase serves as input for the next phase of the model.
+There are two kinds of desing documents developed in this phase:
+-High-level design (HLD)
+-> Brief description and name of each module;
+-> An outline about the functionality of ever module;
+-> Interface relationshio and dependencies between moduls;
+-> Database tables identified along with their key elements
+-> Complete architecturee diagrams along with technology details
+-Low-Level Design (LLD)
+-> Functional logic of the modules
+-> Database tables, which include type and size
+-> Complete detail of the interface
+-> Address all types of dependency issues
+-> Complete input and outputs for every module
+
+Phase 4 : Coding
+Once of the system desing phase is over, the next phase is coding. In thehis phase, developers start build the entire system by writing code using
+the chosen programming language. In the coding phase, tasks are devided into units or modules and assigned to the various developers.
+It is the longest phase of hte SDLC process.
+In this phase, Deveper needs to follow certain prededined coding guidlines. They also need to use programming tools likecompiler, interpreter, debugger
+and implement the code.
+
+Phase 5 : Testing
+Once the software is complete and it is deployed in the testing evironment. The testing team stars testing the functionality of the entire system.
+This is done to verify that the entire application works according to the customer requirement.
+During this phase, QA and testing team may find some bugs/defets which they communicate to developers. The development team fixes the bug and send back
+to QA for a re-test. This process continue until the software is bug-free, stable, and working according to the business needs of that system.
+
+Phase 6 : Installation/Deployment
+Once the software testing phase is over and no bugs or erroes lest in the system then the final deploymnet process starts. Based on the feedback 
+given by the project manager, the final software is released and checked for deployment issues if any.
+
+Phase 7 : Maintenance
+Once the system is deployed and customers start using the developed system, following 3 activities occur
+>Bug fixing - bugs are reported because of somr scenarios which are nit tested at 
+>Upgrade - upgrading the application to th newer versions of the software
+>Enhancement - aadding some new features inti the existing software 
+
+
