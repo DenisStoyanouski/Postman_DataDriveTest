@@ -1,23 +1,23 @@
 {
-	"id": "3e2a7fcc-5c90-4be1-b8d6-935f4a07d0f8",
+	"id": "30af2c4f-36dc-44cc-8e57-11121c58cc84",
 	"name": "DataSet",
-	"timestamp": "2021-04-21T07:14:19.252Z",
+	"timestamp": "2021-04-21T09:59:17.968Z",
 	"collection_id": "52f4b0c9-9b9d-4629-899b-aa13bd43ef23",
 	"folder_id": 0,
 	"environment_id": "0",
-	"totalPass": 12,
-	"totalFail": 5,
+	"totalPass": 14,
+	"totalFail": 3,
 	"results": [
 		{
 			"id": "0fd5b538-d526-45cc-9c1a-d97969b99c21",
 			"name": "Europa",
-			"time": 76,
+			"time": 92,
 			"responseCode": {
 				"code": 500,
 				"name": "INTERNAL SERVER ERROR"
 			},
 			"tests": {
-				"Тест для значения = 200": false
+				"Тест для значения = 200": true
 			},
 			"testPassFailCounts": {
 				"Тест для значения = -100": {
@@ -81,32 +81,32 @@
 					"fail": 1
 				},
 				"Тест для значения = 101": {
-					"pass": 0,
-					"fail": 1
+					"pass": 1,
+					"fail": 0
 				},
 				"Тест для значения = 200": {
-					"pass": 0,
-					"fail": 1
+					"pass": 1,
+					"fail": 0
 				}
 			},
 			"times": [
-				89,
-				94,
-				85,
-				74,
-				75,
-				87,
-				77,
-				77,
-				67,
-				74,
-				85,
-				66,
-				79,
-				74,
-				86,
+				91,
+				82,
+				121,
+				70,
+				73,
+				81,
 				72,
-				76
+				83,
+				78,
+				82,
+				84,
+				68,
+				77,
+				78,
+				81,
+				71,
+				92
 			],
 			"allTests": [
 				{
@@ -155,16 +155,16 @@
 					"Тест для значения = 100": false
 				},
 				{
-					"Тест для значения = 101": false
+					"Тест для значения = 101": true
 				},
 				{
-					"Тест для значения = 200": false
+					"Тест для значения = 200": true
 				}
 			]
 		}
 	],
 	"count": 1,
-	"totalTime": 1337,
+	"totalTime": 1384,
 	"collection": {
 		"requests": [
 			{
