@@ -1,23 +1,23 @@
 {
-	"id": "30bd0663-6711-4011-bc5c-01aed84a0987",
+	"id": "b707d9d8-3cc5-4ebb-878e-fae4e82a6d13",
 	"name": "ECandBVforAge",
-	"timestamp": "2021-04-20T17:22:05.467Z",
+	"timestamp": "2021-04-21T09:49:30.543Z",
 	"collection_id": "3bc8e0ff-8906-4db6-b1bf-cb76fc53ebc9",
 	"folder_id": 0,
-	"environment_id": "a4c0c2fe-679f-441e-8199-3ac71c0441b4",
-	"totalPass": 12,
-	"totalFail": 5,
+	"environment_id": "0",
+	"totalPass": 14,
+	"totalFail": 3,
 	"results": [
 		{
 			"id": "3badd14e-c3e2-4a00-a547-0994fcad7210",
 			"name": "AgeEurope+JSON",
-			"time": 84,
+			"time": 82,
 			"responseCode": {
 				"code": 500,
 				"name": "INTERNAL SERVER ERROR"
 			},
 			"tests": {
-				"Тест для значения = 200": false
+				"Тест для значения = 200": true
 			},
 			"testPassFailCounts": {
 				"Тест для значения = -100": {
@@ -81,32 +81,32 @@
 					"fail": 1
 				},
 				"Тест для значения = 101": {
-					"pass": 0,
-					"fail": 1
+					"pass": 1,
+					"fail": 0
 				},
 				"Тест для значения = 200": {
-					"pass": 0,
-					"fail": 1
+					"pass": 1,
+					"fail": 0
 				}
 			},
 			"times": [
-				83,
-				83,
-				85,
+				86,
 				73,
-				79,
-				78,
-				114,
-				72,
-				113,
-				64,
+				112,
 				73,
 				75,
-				81,
-				83,
-				78,
-				93,
-				84
+				73,
+				64,
+				110,
+				65,
+				77,
+				82,
+				67,
+				73,
+				67,
+				79,
+				82,
+				82
 			],
 			"allTests": [
 				{
@@ -155,16 +155,16 @@
 					"Тест для значения = 100": false
 				},
 				{
-					"Тест для значения = 101": false
+					"Тест для значения = 101": true
 				},
 				{
-					"Тест для значения = 200": false
+					"Тест для значения = 200": true
 				}
 			]
 		}
 	],
 	"count": 17,
-	"totalTime": 1411,
+	"totalTime": 1340,
 	"collection": {
 		"requests": [
 			{
