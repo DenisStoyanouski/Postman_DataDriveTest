@@ -55,6 +55,7 @@
 							"}else{postman.setNextRequest(null);\r",
 							"        pm.globals.unset(\"age\");\r",
 							"        pm.globals.unset(\"ages\");\r",
+							"        postman.setNextRequest(\"USA\");\r",
 							"};\r",
 							"\r",
 							"    \r",
