@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "AgeUSA+JSON",
+			"name": "AgeUSA+CSV",
 			"event": [
 				{
 					"listen": "test",
@@ -64,7 +64,7 @@
 			"response": []
 		},
 		{
-			"name": "AgeEurope+JSON",
+			"name": "AgeEurope+CSV",
 			"event": [
 				{
 					"listen": "test",
