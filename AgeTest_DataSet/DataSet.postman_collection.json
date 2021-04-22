@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Europa",
+			"name": "Europe",
 			"event": [
 				{
 					"listen": "prerequest",
