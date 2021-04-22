@@ -5,36 +5,35 @@
                 "name": "Europe",
                 "data": [
                     {
-                        "age": "Jessica"
+                        "age": -100
                
                     },
                     {
-                        "age": "Jessica"
+                        "age": -1
                
                     },
 					{
-                        "age": "Jessica"
-               
-                    },					
+                        "age": 0
+                    }					
                 ]
             },
             {
                 "name": "USA",
                 "data": [
                     {
-                        "age": "Jessica"
+                        "age": -100
                     },
                     {
-                        "age": "Jessica"
+                        "age": -1
                     },
                     {
-                        "age": "Jessica"
+                        "age": 0
                     },
                     {
-                        "age": "Jessica"
+                        "age": 1
                     },
                     {
-                        "age": "Jessica"
+                        "age": 2
                     }
                 ]
             }
