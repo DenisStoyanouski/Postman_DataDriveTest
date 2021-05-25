@@ -122,4 +122,6 @@ project life cycle
 >Bug fixing, upgrade and engagement actions covered in the maintenance face
 >Waterfall, Incremental, Agile, V model, Big Banfg are some of the popular of SDLC models
 >SDLC in software testing consist of a details plan which explains how to plan, build and maintain specific software.
+how is it doing
+
 
